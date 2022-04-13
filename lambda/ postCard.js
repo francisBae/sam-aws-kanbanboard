@@ -27,7 +27,7 @@ exports.handler = async (event) => {
 
     //api게이트웨이와 통합하기 위한 필수 속성들은 statusCode, body
     response = {
-      statusCode: 200,
+      statusCode: 201,
       headers: {
         "Access-Control-Allow-Origin": "*",
       },
